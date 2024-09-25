@@ -6,4 +6,4 @@ token_length=st.text_input("token length")
 generator=pipeline('text-generation', model= "gpt2")
 prompt = user_prompt
 output= generator(promot, max_length=token_length, num_return_squences=10, truncation=true)[0]
-st.write(output("generated_text")
+st.write(output("generated_text"))
